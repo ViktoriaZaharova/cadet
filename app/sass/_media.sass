@@ -1,0 +1,930 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1740px)
+  .camp-it:before
+    width: 320px
+    height: 510px
+
+
+@media only screen and (max-width: 1540px)
+  main:after
+    width: 180px
+    right: 0
+
+  .program-item__four .program-item__box .image
+    width: 100%
+    height: 100%
+
+  .kids-children__image
+    width: 550px
+    img
+      height: 100%
+      width: 100%
+      object-fit: cover
+
+  .kids-children__content
+    margin: 0 40px 0 0
+    max-width: 600px
+    padding: 20px 0 20px 30px
+
+
+@media only screen and (max-width: 1200px)
+  .container
+    padding: 0 30px
+
+  main:after, main:before
+    display: none
+
+  .main-foundation__box
+    margin: 0 20px 0 0
+
+  .main-foundation
+    margin: 0 0 0 40px
+
+  .program-item__content
+    padding: 0 0 0 37px
+
+  .program-item .image
+    right: -500px
+
+  .program-item__two .image
+    right: auto
+    left: -400px
+
+  .program-item__two .program-item__content
+    padding: 0 31px 0 0
+
+  .camp-it:before
+    display: none
+
+  .location-company__image
+    width: 768px
+    height: 552px
+    overflow: hidden
+    order: -1
+    margin: 0 auto 66px
+
+  .location-company
+
+    flex-direction: column
+    align-items: center
+
+  .location-company__content
+    width: 100%
+    padding: 0 30px 79px
+    justify-content: flex-start
+    align-items: flex-start
+    &:before
+      display: none
+
+  .kids-children__image
+    width: 100%
+    max-width: 569px
+    margin: 0 auto 35px
+    order: -1
+
+  .kids-children
+    flex-direction: column
+    align-items: center
+    padding: 67px 30px 53px
+    text-align: center
+    h2
+      text-align: center
+      max-width: none
+      padding: 59px 0 0 0
+      margin: 0 auto
+      br
+        display: none
+      &:before
+        top: 0
+        left: 50%
+        transform: translate(-50%,0)
+
+  .kids-children__content
+    max-width: none
+    margin: 0
+    padding: 0
+    justify-content: center
+    align-items: center
+
+  .price
+    padding: 87px 0 20px
+
+  .price-content
+    justify-content: space-around
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1040px)
+  .main-bottom
+    flex-direction: column
+    align-items: center
+    margin: 32px 0 0
+
+  .main-foundation
+    margin: 44px 0 0 0
+
+  .about:before, .about:after
+    display: none
+
+  .list-number
+    margin: 50px 0 0 0
+
+  .good-summer__image
+    display: none
+
+  .good-summer__content
+    max-width: none
+    margin: 0
+
+  .good-summer
+    padding: 68px 30px 76px
+
+  .book-now
+    flex-direction: column
+    align-items: center
+
+  .book-now__sale
+    width: 100%
+    order: -1
+    padding: 181px 30px 42px
+    justify-content: center
+    align-items: center
+
+  .book-now__content
+    width: 100%
+    justify-content: center
+    align-items: center
+    padding: 35px 30px 44px
+    .form
+      margin: 0 auto
+    &:before
+      display: none
+
+  .question
+    padding: 62px 0 55px
+
+  .question .button-wrapper .btn
+    width: 195px
+    height: 43px
+    font-size: 18px
+
+
+
+@media only screen and (max-width: 992px)
+  .about-box
+    max-width: 50%
+    p
+      max-width: 304px
+
+  .about .description
+    margin: 14px auto 80px
+    br
+      display: none
+
+  .program-item__four
+    flex-direction: column
+    align-items: center
+    .program-item__box
+      width: 100%
+      padding: 92px 0
+      overflow: hidden
+      .image
+        width: 979px
+        height: 682px
+        &:before
+          background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 10%, #901516 85%)
+
+  .camp-it__image
+    display: none
+
+  .camp-it__content
+    margin: 0 auto
+
+  .camp-it
+    padding: 60px 0
+
+  .camp-it__composition
+    margin: 126px 0 0
+    justify-content: space-around
+
+  .camp-it__composition-box
+    margin: 0 0 40px
+    .img
+      width: 184px
+      height: 184px
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 940px)
+  .main-image
+    position: relative
+    right: 0
+    top: 0
+    margin: -80px 0 -80px -30%
+
+  main .description
+    max-width: none
+    text-align: center
+    p, strong
+      max-width: 565px
+      margin: 0 auto
+
+  .ball-image
+    position: relative
+    right: 0
+    margin: -60px 0 0 0
+
+  .ball-content
+    max-width: none
+    text-align: center
+    justify-content: center
+    align-items: center
+    margin: 109px auto 0
+    .description
+      text-align: center
+      max-width: 655px
+    h4
+      font-size: 32px
+    h2
+      text-align: center
+
+  .way-success
+    padding: 84px 0 26px
+
+  .way-success__box
+    width: 50%
+    margin: 0 0 70px
+    p
+      max-width: 280px
+
+  .way-success .description
+    margin: 20px auto 100px
+
+  .way-success__box:nth-child(2), .way-success__box:nth-child(3)
+    margin: 0 0 70px
+
+  .command
+    padding: 123px 0 127px
+
+  footer
+    .list-social
+      display: none
+
+  .links-wrapper
+    margin: 0 auto 0 13px
+
+  .click-top
+    position: relative
+    right: 0
+    top: 0
+    margin: 0 0 0 19px
+    transform: translate(0)
+
+  .footer-bottom
+    font-size: 11px
+
+  .logo
+    width: 96px
+
+  .footer-top
+    padding: 5px 0
+    .container
+      padding: 0 18px
+
+  .footer-bottom .container
+    padding: 0 18px
+
+@media only screen and (max-width: 850px)
+  h1
+    text-align: center
+
+  .date
+    text-align: center
+
+  main
+    padding: 146px 0 0
+
+  header
+    padding: 10px 0
+    .logo
+      width: 233px
+      margin: 0 auto 0 0
+    .btn
+      width: 205px
+    .container
+      .phone
+        display: none
+
+  .btn-burger
+    display: flex
+    margin: 10px 0 0 25px
+
+  .about
+    padding: 140px 0 0
+
+  .location-company__image
+    width: 100%
+    height: auto
+
+  .about-company
+    padding: 94px 0 96px
+
+  .certificate-nav
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: center
+    margin: 32px 0 0
+    width: 100%
+    .slick-arrow
+      position: relative
+      top: 0
+      left: 0
+      right: 0
+      transform: translate(0)
+    .slick-prev
+      margin: 0 10px 0 0
+
+  .certificate
+    padding: 55px 0 70px
+
+
+@media only screen and (max-width: 768px)
+  .camp-it__info
+    width: 100%
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 755px)
+  .footer-top .container
+    .click-top
+      display: none
+
+  footer
+    position: relative
+
+  .footer-bottom
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 0
+    .container
+      padding: 19px 20px 0
+      font-size: 10px
+    .click-top
+      background: #020054
+      margin: 26px auto 23px
+      display: flex
+
+@media only screen and (max-width: 700px)
+  .program-item__content
+    padding: 0 0 0 18px
+    .number
+      display: none
+    .icon
+      display: none
+    h3
+      font-size: 22px
+      line-height: normal
+      max-width: 250px
+      width: 100%
+      br
+        display: none
+
+  .program-item
+    padding: 53px 0 68px
+    clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 100%)
+    .image
+      width: 600px
+      right: -300px
+
+
+  .program-item__two
+    padding: 88px 0 109px
+    margin: -80px 0 0 0
+    clip-path: polygon(0 25%, 100% 0%, 100% 80%, 0 100%)
+    .program-item__content
+      padding: 0 20px 0 0
+      h3
+        max-width: 260px
+    .image
+      height: 300px
+      left: -150px
+      width: 400px
+
+
+  .program-item__three
+    margin: -60px 0 0 0
+    padding: 93px 0 50px
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%)
+    .image
+      height: 300px
+      right: -200px
+      width: 500px
+
+  .program-item__four
+    clip-path: none
+    padding: 0
+
+    .program-item__box
+      padding: 60px 30px
+      h3
+        max-width: 318px
+      .image
+        width: 100%
+        height: 100%
+
+  .list-star li
+    flex-direction: column
+    align-items: flex-start
+
+  .certificate-box
+    height: auto
+
+  footer
+    .phone
+      width: 100%
+      text-align: center
+      justify-content: center
+      align-items: center
+      order: -1
+      margin: 0 auto 5px
+
+  .footer-top
+    padding: 25px 0 13px
+    .container
+      padding: 0 11px
+      justify-content: space-between
+    .logo
+      width: 96px
+
+  .links-wrapper
+    margin: 0
+    .links
+      max-width: 119px
+      font-size: 11px
+      margin: 0 18px 0 0
+      &:last-child
+        margin: 0
+
+  .footer-bottom
+    text-align: center
+
+@media only screen and (max-width: 610px)
+  h1
+    font-size: 26px
+    margin: 19px 0 21px
+    span
+      font-size: 18px
+
+  header .logo
+    width: 134px
+
+  main
+    padding: 117px 0 0
+    .description
+      font-size: 14px
+      padding: 0
+      strong
+        font-size: 16px
+
+  .sale-wrapper
+    max-width: 375px
+    flex-wrap: wrap
+    align-items: center
+    justify-content: center
+    padding: 45px 39px 43px
+    .btn
+      margin: 20px auto 0
+
+  .main-bottom
+    margin: 30px 0 0 0
+
+  .main-foundation__box
+    font-size: 13px
+    .icon
+      height: 53px
+      img
+        width: auto
+        height: 100%
+
+  .about
+    padding: 32px 0 0
+    background: #1A437E
+    margin: 48px 0 0
+    .description
+      margin: 17px auto 60px
+
+  .description
+    font-size: 16px
+
+  h2
+    font-size: 22px
+    padding: 48px 0 0 0
+    &:before
+      width: 35px
+      height: 34px
+
+  .about-content
+    flex-direction: column
+    align-items: center
+
+  .about-box
+    max-width: none
+    font-size: 18px
+    margin: 0 0 50px
+    &:before
+      top: -20px
+      width: 159px
+      height: 121px
+    .number
+      font-size: 50px
+
+    p
+      max-width: none
+      br
+        display: none
+
+  .about-image
+    margin: 0 auto
+
+  .ball
+    padding: 41px 0 0
+    h2
+      font-size: 32px
+      margin: 12px auto 17px
+    .description
+      font-size: 16px
+    h4
+      font-size: 17.5px
+    .ball-content
+      margin: 0
+    .btn
+      margin: 36px auto 0
+
+  .btn
+    font-size: 16px
+
+  .way-success
+    padding: 85px 0 66px
+    .description
+      margin: 25px 0 43px
+
+  .way-success__content
+    flex-direction: column
+    align-items: flex-start
+
+  .way-success__box
+    margin: 0 0 49px
+    width: 100%
+    display: flex
+    align-items: flex-start
+    flex-direction: row
+    font-size: 18px
+    text-align: left
+    &:last-child
+      margin: 0
+    .icon
+      width: 47px
+      height: 48px
+      min-width: 47px
+      &:before
+        left: -10px
+        width: 77px
+        height: 83px
+        top: 50%
+        transform: translate(0,-50%)
+      img
+        width: 100%
+    p
+      max-width: none
+      padding: 0 0 0 29px
+
+  .command
+    padding: 43px 0 40px
+    background: url("../img/bg-mob1.jpg") no-repeat center
+      size: cover
+    .description
+      font-size: 16px
+      p
+        font-size: 14px
+      strong
+        font-size: 16px
+
+  .camp-it h2, .good-summer__content h2
+    text-align: center
+    padding: 40px 0 0 0
+    &:before
+      left: 50%
+      top: 0
+      transform: translate(-50%,0)
+
+  .camp-it__info
+    padding: 0
+    border: none
+    font-size: 16px
+
+  .list-star li strong
+    width: 100%
+
+  .camp-it__composition
+    margin: 55px 0 0 0
+
+  .about-company
+    padding: 41px 0 55px
+
+  .result
+    padding: 36px 0 44px
+
+  .list-number
+    margin: 36px 0 0 0
+    &:before
+      display: none
+    li
+      position: relative
+      padding: 0 0 0 22px
+      margin: 0 0 15px
+      &:before
+        content: ''
+        position: absolute
+        left: 0
+        top: 5px
+        border-radius: 50%
+        width: 10px
+        height: 10px
+        background-color: #fddf0d
+      .number
+        display: none
+    p
+      font-size: 14px
+
+
+  .question
+    padding: 42px 0
+
+  .question-box__item .number
+    display: none
+
+  .question-box
+    padding: 20px 20px 17px 19px
+    h3
+      font-size: 16px
+
+  .answer
+    padding: 0
+    font-size: 14px
+
+  .answer ul li
+    font-size: 14px
+    flex-direction: column
+    align-items: flex-start
+    p
+      min-width: auto
+      width: 100%
+      margin: 0 0 10px
+
+  .question .button-wrapper
+    flex-direction: column
+    align-items: flex-start
+    .btn
+      margin: 0 0 10px
+
+@media only screen and (max-width: 480px)
+  header .btn
+    display: none
+
+  .mobile-menu
+    width: 290px
+
+  .mobile-menu__wrapper-top
+    padding: 70px 0
+
+  .mobile-menu__wrapper .menu li a
+    padding: 19px 20px
+    font-size: 16px
+
+  .mobile-menu__wrapper-bottom
+    padding: 30px 20px
+
+  .main-image
+    margin: -20px 0 -30px -150px
+
+  main
+    &:before
+      display: block
+      width: 280px
+      height: 170px
+      left: -100px
+    &:after
+      display: block
+      width: 83px
+      height: 118px
+      right: 0
+      bottom: auto
+      top: 67px
+
+  .container
+    padding: 0 20px
+
+  .main-foundation__box
+    margin: 0
+
+  .main-foundation
+    justify-content: space-between
+    width: 100%
+
+  .ball .btn
+    width: 335px
+    font-size: 16px
+
+  .ball-image
+    width: 375px
+    min-width: 375px
+    margin: -60px 30px 0 -60px
+
+  .camp-it__composition
+    flex-direction: column
+    align-items: center
+
+  .camp-it__composition-box
+    font-size: 18px
+    margin: 0 0 39px
+    .img
+      width: 114px
+      height: 114px
+
+  .camp-it
+    padding: 22px 0 0
+
+  .location-company__image
+    margin: 0 0 42px
+
+  .location-company__content ul li p
+    font-size: 14px
+
+  .location-company__content .description
+    margin: 0 0 30px
+
+  .location-company__content
+    padding: 0 20px 45px
+
+  .about-company__box
+    max-width: none
+    flex-direction: row
+    align-items: center
+    text-align: left
+    justify-content: flex-start
+    margin: 0 0 25px
+    .img
+      margin: 0
+      width: 109px
+      height: 116px
+    .text
+      width: calc(100% - 109px)
+      padding: 0 0 0 26px
+      font-size: 16px
+      h3
+        font-size: 20px
+      br
+        display: none
+
+  .kids-children
+    padding: 0
+
+  .kids-children__content
+    padding: 40px 20px 49px
+    font-size: 14px
+    .text
+      margin: 24px 0 30px
+
+  .kids-children__image
+    margin: 0
+
+  .good-summer
+    padding: 47px 20px 37px
+
+  .good-summer__content .description
+    font-size: 14px
+    margin: 40px 0 0
+
+  .good-summer__content blockquote
+    margin: 26px 0
+    padding: 0 0 0 27px
+    font-size: 14px
+    &:before
+      width: 8px
+      height: 103px
+
+  .good-summer__content .text
+    font-size: 14px
+
+  .price
+    padding: 43px 0 53px
+
+  .price-box
+    width: 100%
+    margin: 0 0 44px
+    min-height: 291px
+    padding: 0 19px 49px
+    .text
+      font-size: 15px
+    h3
+      font-size: 20px
+      margin: 0 auto 23px
+    &:last-child
+      margin: 0
+    .icon
+      width: 76px
+      height: 67px
+      margin: -25px auto 15px
+
+  .book-now__sale
+    padding: 67px 20px 62px
+    h4
+      font-size: 26.5px
+      margin: 0 auto 18px
+
+  .countdownHolder .position
+    width: 44px
+    height: 59px
+    font-size: 35px
+
+  .countDiv
+    margin: 0 13px
+    font-size: 35px
+    line-height: 40px
+
+  .description-timer span
+    max-width: 90px
+    font-size: 10.5px
+
+  .book-now__content
+    padding: 35px 19px 44px
+
+  .book-now h3
+    font-size: 22.5px
+
+  .book-now__price
+    font-size: 43px
+    line-height: 43px
+
+  .book-now
+    form
+      max-width: none
+      input
+        padding: 15px 10px 15px 34px
+
+  input
+    font-size: 16px
+
+  .certificate
+    padding: 41px 0
+    h2
+      margin: 0 auto 31px
+
+  .slick-arrow
+    width: 45px
+    height: 45px
+    font-size: 22px
+
+  .certificate-box
+    padding: 0 5px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 375px)
+  .links-wrapper
+    flex-direction: column
+    align-items: center
+    .links
+      max-width: none
+      margin: 0
+
+  .modal__div
+    width: 100%
+    .modal__wrapper
+      padding: 30px 20px
+    form
+      label
+        input
+          width: 100%
+
+
+@media only screen and (max-width: 360px)
+  .main-image
+    margin: -20px 0 -30px -100px
+
+  .ball .btn
+    width: 100%
+
+  .book-now h3
+    font-size: 18px
+
+  .book-now__price
+    font-size: 30px
+    line-height: 30px
+
+
