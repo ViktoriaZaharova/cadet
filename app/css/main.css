@@ -221,6 +221,8 @@ header {
   header .btn {
     width: 212px;
     height: 40px; }
+  header .phone {
+    margin: 5px 37px 0 auto; }
 
 main {
   background: url("../img/bg1.png") #fff no-repeat center;
@@ -825,6 +827,65 @@ strong {
       font-weight: 600;
       margin: 0 0 20px;
       font-size: 26px; }
+
+.command-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 160px auto 0;
+  background: #2564be;
+  padding: 30px 40px 29px;
+  width: 100%;
+  max-width: 880px; }
+
+.command-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  width: 49%;
+  padding: 0 0 0 220px; }
+  .command-box .command-box__text {
+    max-width: 180px;
+    width: 100%;
+    color: #93baf3;
+    font-size: 16px;
+    line-height: 1.15; }
+    .command-box .command-box__text h3 {
+      font-size: 26px;
+      color: #fff;
+      font-weight: bold;
+      margin: 0 0 10px; }
+  .command-box:first-child {
+    text-align: right;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 0 200px 0 0; }
+    .command-box:first-child .command-box__photo {
+      right: 0;
+      left: auto; }
+
+.command-box__photo {
+  height: 299px;
+  position: absolute;
+  bottom: -29px;
+  left: 0; }
+  .command-box__photo img {
+    width: auto;
+    height: 100%; }
 
 .result {
   background: url("../img/bg4.jpg") no-repeat center;
@@ -2085,6 +2146,17 @@ footer {
 .location-company__image {
   margin: -50px 0 90px 0;
   width: 827px;
+  height: 552px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
   z-index: 2; }
 
@@ -2327,7 +2399,9 @@ footer {
     padding: 87px 0 20px; }
   .price-content {
     -ms-flex-pack: distribute;
-        justify-content: space-around; } }
+        justify-content: space-around; }
+  .location-company__image {
+    height: auto; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 1040px) {
@@ -2502,7 +2576,27 @@ footer {
     .footer-top .container {
       padding: 0 18px; }
   .footer-bottom .container {
-    padding: 0 18px; } }
+    padding: 0 18px; }
+  .command-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0;
+    background: transparent; }
+  .command-box__photo {
+    bottom: 0; }
+  .command-box {
+    padding: 20px 40px 29px 220px;
+    position: relative;
+    background: #2564be;
+    width: 100%;
+    margin: 0 0 20px; }
+    .command-box:first-child {
+      padding: 20px 200px 29px 40px; } }
 
 @media only screen and (max-width: 850px) {
   h1 {
@@ -2905,7 +2999,18 @@ footer {
         -ms-flex-align: start;
             align-items: flex-start; }
     .question .button-wrapper .btn {
-      margin: 0 0 10px; } }
+      margin: 0 0 10px; }
+  .command-box {
+    margin: 0 0 80px;
+    padding: 20px 30px 20px 140px; }
+    .command-box:last-child {
+      margin: 0; }
+    .command-box:first-child {
+      padding: 20px 130px 20px 30px; }
+  .command-box__photo {
+    height: 200px; }
+  .command-wrapper {
+    margin: 80px auto 0; } }
 
 @media only screen and (max-width: 480px) {
   header .btn {
@@ -3078,7 +3183,9 @@ footer {
     height: 45px;
     font-size: 22px; }
   .certificate-box {
-    padding: 0 5px; } }
+    padding: 0 5px; }
+  .command-box .command-box__text h3 {
+    font-size: 20px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 375px) {
