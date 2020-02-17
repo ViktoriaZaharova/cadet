@@ -100,6 +100,9 @@ $(".go_to").on("click", function (event) {
 
     //анимируем переход на расстояние - top за 500 мс
     $('body,html').animate({scrollTop: top - 140}, 500);
+
+    $('.mobile-menu').fadeOut();
+    $('.overlay').fadeOut();
 });
 
 $('.btn-burger').click(function () {
